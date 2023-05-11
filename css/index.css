@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
+  color: #1b8872;
+}
+
+img {
+  width: 100%;
+}
+
+ul {
+  font-size: 1.5em;
+}
+
+h1,
+h2,
+strong {
+  font-weight: 900;
+}
+
+/* Typography */
+
+h1 {
+  font-size: 2.5rem;
+  margin: 0;
+  font-family: sigmar, sans-serif;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #db8cf6;
+}
+
+a {
+  color: #db8cf6;
+}
+
+a:hover,
+a:focus {
+  color: #d4b44c;
+}
+
+/* Buttons */
+
+.btn {
+  display: inline-block;
+  padding: 1em 2em;
+  text-decoration: none;
+}
+
+.big-btn {
+  font-size: 2.5rem;
+}
+
+.md-btn {
+  font-size: 1.5rem;
+}
+
+.sm-btn {
+  font-size: 0.5rem;
+}
+
+.btn-accent {
+  background: #db8cf6;
+  color: #fff;
+}
+
+.btn-accent:hover {
+  color: #fff;
+  background: #c553b8;
+}
+
+.btn-white {
+  background: #fff;
+  color: #1b8872;
+}
+
+.btn-white:hover {
+  color: #fff;
+  background: #999;
+}
+
+/* Layout */
+
+header {
+  background: #1b8872;
+  padding: 45px 0;
+  color: #fff;
+}
+
+section {
+  font-size: 1rem;
+
+  padding: 45px 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 620px;
+  margin: 0 auto;
+
+  /* border: 2px solid red; */
+}
+
+.section-two {
+  background: #1b8872;
+  color: #fff;
+}
+
+@media screen and (min-width: 400px) {
+  .section-one {
+    background-color: red;
+  }
+}
+
+@media (min-width: 350px) {
+  .section-two .container {
+    display: flex;
+  }
+}
